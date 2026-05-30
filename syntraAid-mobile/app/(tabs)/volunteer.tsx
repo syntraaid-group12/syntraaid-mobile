@@ -4,7 +4,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import {styles} from '@/styles/main';
 import { useNavigation } from '@react-navigation/native';
 
-export default function voluteer() {
+export default function volunteer() {
 
   function MyButton() {
 
@@ -23,8 +23,14 @@ export default function voluteer() {
       </View>  
       <View style={{backgroundColor:'#054d1d', padding:120 }}>
         <Text style={{fontSize:20, color:'#fff'}}>Overview</Text>
-        <TouchableOpacity style={styles.box3} onPress={volunteer}>
-        <Text style={styles.text3}>Volunteers</Text></TouchableOpacity>
+        <TouchableOpacity style={styles.box3} onPress={''}>
+        <Text style={styles.text3}>Admin</Text></TouchableOpacity>
+        <TouchableOpacity style={styles.box3} onPress={''}>
+        <Text style={styles.text3}>Coordinator</Text></TouchableOpacity>
+        <TouchableOpacity style={styles.box3} onPress={''}>
+        <Text style={styles.text3}>Volunteer</Text></TouchableOpacity>
+        <TouchableOpacity style={styles.box3} onPress={''}>
+        <Text style={styles.text3}>Donor</Text></TouchableOpacity>
       </View>  
       </ScrollView>
       </SafeAreaView>

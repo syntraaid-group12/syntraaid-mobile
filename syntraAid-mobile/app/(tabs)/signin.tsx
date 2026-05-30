@@ -31,8 +31,9 @@ export default function Login() {
   const setUser2 = useStore((state: any) => state.setUser2)
 
   const handleLogin = () => {
+    // TODO: Replace with real API authentication call in M2
         if (user2.email=='user@gmail.com' && user2.password==12345){
-          navigation.navigate('/(tabs)/voluteer');     
+          navigation.navigate('/(tabs)/volunteer');     
         } else{
             alert("Wrong credential!, Please try again");
         }

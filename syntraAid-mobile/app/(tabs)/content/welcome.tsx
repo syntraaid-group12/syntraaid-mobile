@@ -4,7 +4,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import {styles} from '@/styles/main';
 import { useNavigation } from '@react-navigation/native';
 
-export default function DashBoard() {
+export default function Welcome() {
 
   function MyButton() {
 

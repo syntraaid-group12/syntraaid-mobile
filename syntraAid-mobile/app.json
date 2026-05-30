@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "c6-mobile",
-    "slug": "c6-mobile",
+    "name": "syntraaid-mobile",
+    "slug": "syntraaid-mobile",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "c6mobile",
+    "scheme": "syntraaid-mobile",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {

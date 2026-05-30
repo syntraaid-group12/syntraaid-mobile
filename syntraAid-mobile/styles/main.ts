@@ -32,6 +32,7 @@ box3:{
   backgroundColor: 'green',
   margin:15,
   padding:50,
+
 },
 
 
@@ -86,7 +87,7 @@ input:{
 },
 
 text3:{
-  padding:10,
+  padding:5,
   color:'#fff',
   fontSize:20,
   textAlign:'center',
