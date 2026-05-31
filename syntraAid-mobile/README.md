@@ -13,3 +13,4 @@ npm install
 
 4. Start the app:
 npx expo start
+
