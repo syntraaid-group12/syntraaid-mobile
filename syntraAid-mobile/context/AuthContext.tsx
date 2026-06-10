@@ -12,7 +12,7 @@ export const MyProvider = ({ children }: {children: React.ReactNode }) => {
 
   const signUp = async () => {
     try {
-      const response = await fetch('', { // TODO: Replace with backend API endpoint when ready
+      const response = await fetch('https://syntraaid-backend-production.up.railway.app/api', { 
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

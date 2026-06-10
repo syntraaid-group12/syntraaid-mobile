@@ -31,8 +31,11 @@ box3:{
   borderRadius: 10,
   backgroundColor: 'green',
   margin:15,
-  padding:50,
-
+  padding:30,
+ // flexDirection: 'row',
+ // justifyContent: 'space-between',
+ // width: '75%',
+  
 },
 
 
@@ -94,11 +97,42 @@ text3:{
   fontWeight:'normal',
 },
 
+text4:{
+
+  padding:10,
+  color:'#000',
+  fontSize:18,
+  textAlign:'left',
+  fontWeight:'bold',
+ 
+
+},
+
+text5:{
+  margin:12,
+  padding:10,
+  color:'#000',
+  fontSize:12,
+  textAlign:'left',
+  fontWeight:'bold',
+  borderWidth:1,
+  borderColor:'green',
+
+},
+
 link: {
     color: 'blue',
     textDecorationLine: 'underline',
     textAlign:'center',
   },
+
+link1: {
+    color: 'green',
+    textDecorationLine: 'underline',
+    textAlign:'center',
+    fontSize:14,
+  },
+
 
   });
 
